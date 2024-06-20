@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/labring/kubernetes:v1.24.17 \
+        skopeo copy docker://docker.io/library/labring/kubernetes:v1.24.17 \
             docker://registry.cn-hangzhou.aliyuncs.com/annnj/kubernetes:v1.24.17
